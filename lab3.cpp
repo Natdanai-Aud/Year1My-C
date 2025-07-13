@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main()
 {
-	
 	//lap3
+	
+	//3.1
 	int dividend,divisor,q,r;
 	printf("Input Dividend: "); 
 	scanf("%d",&dividend);
@@ -14,13 +15,15 @@ int main()
 	
 	
 	/*
+	//3.2
 	float c,f;
-	printf("c: ",c); scanf("%f",&c);
+	printf("Input a temperature in degree Celsius: ",c); scanf("%f",&c);
 	f=9.0/5.0*c+32;
-	printf("%.0f to %.1f",c,f);
+	printf("%.0f degrees Celsius is equivalent to %.1f degrees Fahrenheit",c,f);
 	*/
 	
 	/*
+	//3.3
 	float one,two,three;
 	printf("input1: ",one); scanf("%f",&one);
 	printf("input2: ",two); scanf("%f",&two);
@@ -33,14 +36,12 @@ int main()
 	*/
 	
 	/*
+	//3.4
 	float r,a,v;
-	printf("r : "); scanf("%f",&r);
+	printf("Please input r : "); scanf("%f",&r);
 	a=4.00*22/7*r*r;
-	printf("a : %.2f\n",a);
+	printf("The surface area of sphere is %.2f\n",a);
 	v=4.00/3.00*22/7*r*r*r;
-	printf("v : %.2f",v);
-	*/
-	
-	
-	
+	printf("The volume of sphere is %.2f",v);
+	*/	
 }
