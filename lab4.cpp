@@ -4,14 +4,14 @@ int main()
 
 {
 //2.1
-	/*
+	
 	int height;
 	printf("Please input your height: "); scanf("%d",&height);
 	if(height>120)
 		printf("Your ticket price is 350 baht.");
 	if(height<=120)
 		printf("Your ticket price is 250 baht.");
-	*/
+	
 	
 //2.2
 	/*
@@ -52,6 +52,7 @@ int main()
 	else
 		printf("3rd number is the greatest.");
 	*/
+	
 //3.2
 	/*
 	int N;
@@ -65,6 +66,7 @@ int main()
 	if(N>0)
 		printf("Positive Number");
 	*/
+	
 //3.3
 	/*
 	float x=1, y=2, z=3;
@@ -76,6 +78,7 @@ int main()
 	else
 		printf("C");
 	*/
+	
 //3.4.1
 	/*
 	int x;
@@ -85,6 +88,7 @@ int main()
 			printf("A");
 	else printf("B");
 	*/
+	
 //3.4.2
 	/*
 	int x;
@@ -96,6 +100,7 @@ int main()
 	}
 	else printf("B");
 	*/
+	
 //4.1
 	/*
 	char x;
@@ -115,6 +120,7 @@ int main()
 			printf("Their is not digit on the telephone that coresponds to %c",x);
 	}
 	*/
+	
 //5.1
 	/*
 	char x;
@@ -129,6 +135,8 @@ int main()
 	printf("Output:Others");
 	*/
 	
+//5.2
+	/*
 	int p,t;
 	float c,f;
 	printf("Promotion Half price : "); scanf("%d",&p);
@@ -138,11 +146,16 @@ int main()
 	case 400: case 800: case 1200:
 		c=p/2;
 		f=(t*1.5)-c;
+		if(f<=c)
+	printf("Fee:%.2f baht",c);
+		else if(f>=c)
 	printf("Fee:%.2f baht",f);
+	break;
 	default:
 		
 		printf("Don't have this promotion.");
-}
+}	
+	*/
 	}
 
 
