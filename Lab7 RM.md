@@ -23,4 +23,34 @@ Ex4.1ฟังก์ชัน PrintCharLine ด้านล่างนี้ด
 
 <img width="424" height="65" alt="image" src="https://github.com/user-attachments/assets/4294b73d-ae40-468b-9920-97d8a5e2cf47" />
 
-ข้อ5.2
+ข้อ5.2อนุกรมฮาโมนิค ทำการดัดแปลงโปรแกรมในตัวอย่าง5.2ในส่วนของการประกาศฟังก์ชัน fเพื่อหาผลรวมn พจน์แรก ของอนุกรมฮาโมนิค ดังนั้นf(n)จึงมีนิยามดังนี้
+
+<img width="321" height="253" alt="image" src="https://github.com/user-attachments/assets/17173683-fed9-485e-b0d4-dcaa911983a7" />
+
+<img width="133" height="405" alt="image" src="https://github.com/user-attachments/assets/20257aaf-4661-4e6f-ad4d-bb299cd2d91e" />
+
+ข้อ6.1.1ให้ทดลองรันโปรแกรมดังต่อไปนี้ ผลลัพธ์ที่เกิดขค้นจากการรันโปรแกรมคือ
+
+<img width="354" height="88" alt="image" src="https://github.com/user-attachments/assets/ccfef139-ea1c-4e94-8d64-9b8b306da5d9" />
+
+ข้อ6.1.2ถ้าเพิ่มคำสั่งint sum=0;แทรกเข้าไประหว่างvoid SubtractFromSum(int x)กับsum=sum0x; ผลลัพธ์ที่เกิดขึ้นจากการรันโปรแกรมคือ
+
+<img width="345" height="82" alt="image" src="https://github.com/user-attachments/assets/588ea1ea-38e6-426a-a439-aff81426d5c2" />
+
+ข้อ6.1.3จงอธิบายว่าทำไมผลลัพธ์ที่ได้จากการรันโปรแกรมจึงแตกต่างกัน เพราะว่าsumถูกรีเซ็ตเป็น0 sum in functionSubtractจึงเป็น0-5
+
+ข้อ7.1
+
+<img width="579" height="136" alt="image" src="https://github.com/user-attachments/assets/7ef03557-f54f-45bf-8ddd-13aa2c959509" />
+
+โดยที่xมีค่าตั้งแต่0ถึง20และฟังก์ชันsin(x)ให้ค่าsinของมุมx(เรเดียน)
+
+หมายเหตุ
+
+-ฟังก์ชันsinใน<math.h>รับค่ามุมในหน่วยเรเดียน
+
+-ในภาษาCเราสามารถปัดค่าทศนิยมให้เป็นจำนวนเต็มได้โดยใช้ฟังก์ชันceil(ปัดขค้น)และfloor(ปัดลง)อย่างไรก็ตาม ค่าที่ได้จากฟังก์ชันนี้จะยังคงเป็นชนิดdouble หากจะนำไปใช้ในรูปนิพจน์ชนิดint จะต้องมมีการทำtype casting โดยการใส่(int)ไว้ด้านหน้า เช่น int a=(int)ceil(10.3293); หรือint a=(int)floor(10.3293);
+
+-การนำฟังก์ชันPlotCharในแบบฝึกหัด4.2มาใช้และการนิยามฟังก์ชันf(x)ไว้ในรูปของฟังก์ชันเช่นเดียวกับตัวอย่าง5.2จะช่วยให้โปรแกรมดูง่ายขึ้น
+
+<img width="531" height="545" alt="image" src="https://github.com/user-attachments/assets/84fba8f9-fa06-4c3f-aef7-aa760cb626c2" />
